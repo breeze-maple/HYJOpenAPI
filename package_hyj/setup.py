@@ -5,7 +5,7 @@ with open("README.md", "r", encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name='hyj_open_api',  # 包名
-      version='1.1.0',  # 版本号
+      version='1.1.1',  # 版本号
       description='HuYujie Python Auto API',
       long_description=long_description,
       long_description_content_type="text/markdown",
