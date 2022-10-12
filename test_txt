@@ -1,0 +1,12 @@
+打包命令
+python setup.py sdist build
+python setup.py sdist bdist_wheel build
+
+上传命令
+twine upload dist
+
+pip下载
+pip install hyj_open_api== -i https://www.pypi.org/simple
+
+
+tip. 注意修改版本号
