@@ -4,7 +4,7 @@ import json
 from fake_useragent import UserAgent  # 反爬策略
 
 
-def translate_cn_to_en(keyword):
+def translate_cn_to_en_(keyword):
     return json.loads(urllib.request.urlopen(
         urllib.request.Request('http://fanyi.youdao.com/translate?smartresult=dict&smartresult=rule',
                                data=bytes(urllib.parse.urlencode({
